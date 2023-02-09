@@ -10,6 +10,11 @@ a {
     font-size: 18px;
     text-decoration: none;
 }
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
 ul {
     display: flex;
     justify-content: center;
@@ -51,7 +56,7 @@ ul {
 }
 
 .d2 {
-    background-color: #E5E7EB;
+    background-color: #F9faf8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +65,52 @@ ul {
 .d2_images {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 30px;
+    margin: 20px;
+}
+
+.d2_img {
+    width: 200px;
+    height: 200px;
+    border: solid #1F2937;
+}
+
+.d2_col {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.d3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    min-height: 700px;
+}
+
+.d4 {
+    background-color: #F9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.d4_box {
+    background-color: #3882f6;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 6px;
+    gap: 120px;
 }
 .hero {
     font-size: 48px;
@@ -77,6 +127,16 @@ ul {
     font-weight: 700;
 }
 
+.box {
+    color: #F9faf8;
+    gap: 0;
+    margin: 0;
+}
+
+.box_head {
+    font-weight: 700;
+    font-size: 22px;
+}
 .d1_img {
     border-radius: 8px;
 }
@@ -85,3 +145,20 @@ ul {
     font-weight: 900;
     color: #1F2937;
 }
+.ul_quotes {
+    list-style: circle;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+ .button.bottom {
+    border: solid #F9faf8 2px;
+    width: 160px;
+    border-radius: 6px;
+
+ }
